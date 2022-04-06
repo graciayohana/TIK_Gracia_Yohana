@@ -1,12 +1,14 @@
 //header
 #include <iostream> 
 using namespace std;
-int main() {//begin of functon
-    int angka;
+int main() {//begin of function
+    float a;
+    float b;
     string nama; //deklarasi variabel
-    nama = "Gracia Yohana Siagian"; //masukkan value kedalam variabel
-    angka = 10.21;
+    nama = "Gracia Yohana Siagian"; //masukkan value ke dalam variabel
+    a = 10.21;
+    b = 3.14;
     cout<<nama<<endl; //menampilkan variabel
-    cout<<angka;
+    cout<<a+b;
     
 }//end of function
